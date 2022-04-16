@@ -1,0 +1,4 @@
+#Para instalar o programa que crialaunchers:
+sudo apt-get install –no-install-recommends gnome-panel
+#Para criar um launcher:
+$ sudo gnome-desktop-item-edit /usr/share/applications/ –create-new
