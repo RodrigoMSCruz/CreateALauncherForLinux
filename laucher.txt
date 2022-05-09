@@ -2,7 +2,7 @@
 nano /usr/she/application/NOME_DA_APLICACAO.desktop
 
 ##Copie o código abaixo e altere os campos conforme a sua aplicação
-##Exec= Local e nome da sua aplicação
+##Exec= Local e nome da sua aplicação / Caso seja uma aplicação JAVA (.JAR) executar com java -jar NOMEdaAPLICACAO.jar
 ##Icon= Arquivo com o ícone para o launcer
 ##Categories= Escolha uma dessas categorias que mais se adequa a sua aplicação:
 
