@@ -1,11 +1,25 @@
-#Para instalar o programa que crialaunchers:
-sudo apt-get install –no-install-recommends gnome-panel
-#Para criar um launcher:
-$ sudo gnome-desktop-item-edit /usr/share/applications/ –create-new
+##Para criar o atalho global(Para todos os usuários):
+nano /usr/she/application/NOME_DA_APLICACAO.desktop
+
+##Copie o código abaixo e altere os campos conforme a sua aplicação
+##Exec= Local e nome da sua aplicação
+##Icon= Arquivo com o ícone para o launcer
+##Categories= Escolha uma dessas categorias que mais se adequa a sua aplicação:
+
+##Categories=Settings;
+##Categories=Development;Documentation;
+##Categories=Education;
+##Categories=Science;
+##Categories=Office;
+##Categories=Graphics;
+##Categories=Network;
+##Categories=Game;
+##Categories=AudioVideo;Audio;Video;AudioVideoEditing;
+##Categories=System;
+##Categories=Utility;
 
 ##--  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --
 
-[Desktop Entry]
 Type=Application
 Version=1.0
 Name=Nome do aplicativo
@@ -14,17 +28,4 @@ Icon=/endereço/do/ícone/icon.png do aplicativo
 Exec=/endereço/do/aplicativo/executável do aplicativo
 Terminal=false
 StartupNotify=false
-Categories=Network; A categoria que o aplicativo deve aparecer no menu
-
-
-Categories=Settings;
-Categories=Development;Documentation;
-Categories=Education;
-Categories=Science;
-Categories=Office;
-Categories=Graphics;
-Categories=Network;
-Categories=Game;
-Categories=AudioVideo;Audio;Video;AudioVideoEditing;
-Categories=System;
-Categories=Utility;
+Categories=Network
